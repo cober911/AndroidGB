@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="testText">Text for GeekBreins</string>
+    <string name="buttonClick1">"Button is Clicked"</string>
+</resources>

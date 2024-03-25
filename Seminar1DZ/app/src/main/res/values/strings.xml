@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Seminar1DZ</string>
+    <string name="textButtonDown">0</string>
+    <string name="textButtonCenter">Сброс</string>
+    <string name="textCenter1">Все места свободны</string>
+    <string name="textCenter2">Осталось мест:</string>
+    <string name="textCenter3">Пассажиров слишком много!</string>
+</resources>

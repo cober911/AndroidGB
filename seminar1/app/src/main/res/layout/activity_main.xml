@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/mainText1"
+        style="@style/MyCastomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/ic_launcher_foreground"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="8"
+        android:text="@string/testText"
+        android:textAppearance="@style/MyCastomText"
+        android:textSize="16sp"
+        tools:text="@tools:sample/lorem/random"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center|bottom"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonIMG1"
+        android:background="@drawable/selector_button"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/outline_plus_one_24"
+        >
+
+    </ImageButton>
+</FrameLayout>
