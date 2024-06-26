@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Стиль для CheckBox -->
+    <style name="Base.Widget.App.CheckBox" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:buttonTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- Стиль для активного CheckBox -->
+    <style name="CheckBoxEnabledStyle" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:buttonTint">@color/colorAccent</item>
+        <item name="android:textColor">#000000</item> <!-- Черный цвет текста -->
+        <item name="android:background">#FFFFFF</item> <!-- Белый цвет фона -->
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- Стиль для неактивного CheckBox -->
+    <style name="CheckBoxDisabledStyle" parent="Widget.Material3.CompoundButton.CheckBox">
+        <item name="android:textColor">#808080</item> <!-- Серый цвет текста -->
+        <item name="android:background">#E0E0E0</item> <!-- Светло-серый цвет фона -->
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.stylesPhone">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#BB86FC</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.styleBox" parent="TextAppearance.AppCompat.stylesPhone">
+        <item name="buttonTint">#03DAC5</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.stylePoints" parent="TextAppearance.AppCompat.stylesPhone">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.stylePoints2" parent="TextAppearance.AppCompat.stylesPhone">
+        <item name="android:textColor">#444444</item>
+    </style>
+
+</resources>
